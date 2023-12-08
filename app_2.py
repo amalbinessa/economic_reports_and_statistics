@@ -8,7 +8,7 @@ import streamlit as st
 # file_path =  'Data/import_export_2_version.xlsx'
 # with open(file_path, 'r', encoding='UTF-8') as f:
 #         data = pd.read_excel(f)
-data = pd.read_csv('processed_data.csv', encoding='UTF-8')
+data = pd.read_csv('Data/processed_data.csv', encoding='UTF-8')
 data.replace('-', 0, inplace=True)
 
 import streamlit as st
