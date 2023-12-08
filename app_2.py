@@ -1,11 +1,12 @@
+# -*- coding: utf-8 -*-
 import pandas as pd
-# 
+
 # # import pandas_profiling
 import streamlit as st
 # # from pydantic_settings import BaseSettings # NEW
 # # from streamlit_pandas_profiling import st_profile_report
 
-data = pd.read_excel("Data/import_export_2_version.xlsx")
+data = pd.read_excel("Data/import_export_2_version.xlsx", encoding='UTF-8')
 data.replace('-', 0, inplace=True)
 
 import streamlit as st
