@@ -16,21 +16,21 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-# Translate the column names from Arabic to English
-column_translations = {
-    'العام': 'Year',
-    'صادرات السلع غير النفطية': 'Non-Oil Exports',
-    'واردات السلع': 'Imports of Goods',
-    'الميزان التجاري': 'Trade Balance',
-    'الميزان التجاري باللوغاريتم': 'Trade Balance (Logarithmic)',
-    'صادرات االخدمات': 'Service Exports',
-    'واردات الخدمات': 'Service Imports',
-    'الزراعة ـ الغابات ـ والاسماك': 'Agriculture, Forestry, and Fisheries',
-    'التعدين والتحجير': 'Mining and Quarrying',
-    'مجموع الموارد الطبيعية': 'Total Natural Resources',
-    'الناتج المحلي الإجمالي': 'Gross Domestic Product (GDP)',
-    'النمو الاقتصادي': 'Economic Growth'
-}
+# # Translate the column names from Arabic to English
+# column_translations = {
+#     'العام': 'Year',
+#     'صادرات السلع غير النفطية': 'Non-Oil Exports',
+#     'واردات السلع': 'Imports of Goods',
+#     'الميزان التجاري': 'Trade Balance',
+#     'الميزان التجاري باللوغاريتم': 'Trade Balance (Logarithmic)',
+#     'صادرات االخدمات': 'Service Exports',
+#     'واردات الخدمات': 'Service Imports',
+#     'الزراعة ـ الغابات ـ والاسماك': 'Agriculture, Forestry, and Fisheries',
+#     'التعدين والتحجير': 'Mining and Quarrying',
+#     'مجموع الموارد الطبيعية': 'Total Natural Resources',
+#     'الناتج المحلي الإجمالي': 'Gross Domestic Product (GDP)',
+#     'النمو الاقتصادي': 'Economic Growth'
+# }
 
 
 # Renaming the columns
