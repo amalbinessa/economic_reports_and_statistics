@@ -5,10 +5,10 @@ import pandas as pd
 import streamlit as st
 # # from pydantic_settings import BaseSettings # NEW
 # # from streamlit_pandas_profiling import st_profile_report
-file_path =  'Data/import_export_2_version.xlsx'
-with open(file_path, 'r', encoding='UTF-8') as f:
-        data = pd.read_excel(f)
-# data = pd.read_excel(file_path, encoding='UTF-8')
+# file_path =  'Data/import_export_2_version.xlsx'
+# with open(file_path, 'r', encoding='UTF-8') as f:
+#         data = pd.read_excel(f)
+data = pd.read_csv('processed_data.csv', encoding='UTF-8')
 data.replace('-', 0, inplace=True)
 
 import streamlit as st
